@@ -1,0 +1,31 @@
+{
+  "name": "spa-fullstack-boilerplate",
+  "version": "1.0.0",
+  "description": "fullstack single-page-app boiler plate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malilasage/spa-fullstack-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malilasage/spa-fullstack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/malilasage/spa-fullstack-boilerplate#readme",
+  "devDependencies": {
+    "body-parser": "~1.15.2",
+    "browser-sync": "^2.18.5",
+    "express": "^4.14.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-ui-router": "1.0.0-beta.3",
+    "jquery": "^3.1.1",
+    "pg": "^6.1.2",
+    "skeleton-css": "^2.0.4"
+  }
+}
