@@ -1,4 +1,12 @@
 <div style="border:1px solid blue;">
   <img src="https://media.giphy.com/media/xTiTnnLkYTDWSOWSHK/giphy.gif" alt="shakira coding gif">
   <p>this <span style="color:blue">inner div</span> is the thing component</p>
+  <br>
+  <div>
+    <button ng-click="$ctrl.sendRequest()">this button sends a request to the server</button>
+    <div>
+      <h4>server response</h4>
+      <p>{{ vm.response }}</p>
+    </div>
+  </div>
 </div>
