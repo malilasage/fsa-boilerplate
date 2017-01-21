@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Single Page App</title>
+  <base href="/">
 </head>
 <body>
   <h1><p>congrats ur on index.html &#x2620;<p></h1>
+  <h4><a ui-sref="thing">this</a> opens the 'thing' component</h4>
   <ui-view></ui-view>
 
 <!-- scripts -->

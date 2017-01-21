@@ -6,7 +6,7 @@ var port = process.env.PORT || 3000;
 server.use(express.static('client'));
 
 server.get('/api', function(req, res) {
-  res.send('routes working');
+  res.send('suh dude');
 });
 
 server.listen(port, function() {
