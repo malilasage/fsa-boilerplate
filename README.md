@@ -1,9 +1,9 @@
 # Fullstack Single Page App Boilerplate
 
 This is boilerplate code to create fullstack apps using:
-* express
-* node
-* angular
+* Express
+* Node
+* Angular v1.0.6
 * MongoDb/Mongoose or Postgres/Knex
 
 Filestructure:
